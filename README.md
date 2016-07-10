@@ -6,6 +6,7 @@ for alerting functionality.
 
 ## Requirements
 
+* Ansible 2.0
 * [freedomofpress.generate-ssl-cert] role
 * 2GB of RAM for the logserver
 * logclients to ship logs

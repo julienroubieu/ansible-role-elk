@@ -95,7 +95,7 @@
 - name: Start elasticsearch service.
   service:
     name: elasticsearch
-    state: running
+    state: started
     enabled: yes
   register: elasticsearch_service_start_result
 

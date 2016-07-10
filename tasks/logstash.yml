@@ -66,5 +66,5 @@
 - name: Start logstash service.
   service:
     name: logstash
-    state: running
+    state: started
     enabled: yes

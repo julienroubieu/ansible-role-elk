@@ -40,7 +40,7 @@
 - name: Start ufw service.
   service:
     name: ufw
-    state: running
+    state: started
     enabled: yes
 
 - name: Enable ufw functionality.

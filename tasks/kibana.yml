@@ -86,5 +86,5 @@
 - name: Start kibana service.
   service:
     name: kibana
-    state: running
+    state: started
     enabled: yes
